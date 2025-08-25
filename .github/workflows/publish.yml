@@ -2,39 +2,26 @@ name: Quarto Publish
 
 on:
   push:
-    branches: [ main ]   # build on pushes to main branch
+    branches: [ main ]
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # allow pushing to gh-pages
 
     steps:
       - uses: actions/checkout@v4
-
-      # Install Quarto
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      # Install Python
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # Cache pip packages for faster builds
-      - uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      # Install dependencies
       - run: pip install -r requirements.txt
 
-      # Render the site
-      - run: quarto render
-
-      # Publish to GitHub Pages
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: quarto-dev/quarto-actions/publish@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
