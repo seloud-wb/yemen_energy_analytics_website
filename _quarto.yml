@@ -9,13 +9,13 @@ format:
 
 website:
   title: Yemen Energy Team Analytics
-  site-url: /pages/index.qmd    # <— makes the title/logo link to Home
+  site-url:  https://seloud-wb.github.io/yemen_energy_analytics_website/  # <— makes the title/logo link to Home
   navbar:
     background: dark
     search: true
     left:
       - text: "Home"
-        href: pages/index.qmd
+        href: index.qmd
       - text: "YEEAP II"
         menu:
           - text: "Tracker"
