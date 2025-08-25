@@ -1,0 +1,19 @@
+---
+title: "Documentation"
+format: dashboard
+---
+
+# Component 1.2
+
+## Section C
+```{python}
+#| title: Chart C
+print("wassup")
+```
+
+
+### Section D
+```{python}
+#| title: Chart D
+print("Page 2 - Section D")
+```

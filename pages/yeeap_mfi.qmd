@@ -1,0 +1,9 @@
+---
+title: "YEEAP II Tracker"
+format: dashboard
+navbar:
+  background: light
+---
+
+# Component 1.2
+

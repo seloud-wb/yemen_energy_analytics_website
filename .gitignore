@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# Jupyter / Quarto
+.ipynb_checkpoints
+.quarto/
+_site/
+.DS_Store
+
+# Logs / caches
+*.log
+*.tmp
+*.swp
+*.swo
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Editors / IDEs
+.vscode/
+.idea/                 # PyCharm / IntelliJ project settings
+*.iml                  # JetBrains project files
+*.ipr
+*.iws
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
