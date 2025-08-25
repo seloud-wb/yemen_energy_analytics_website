@@ -1,6 +1,8 @@
 project:
   type: website
 
+execute:
+  freeze: auto
 
 format:
   html:

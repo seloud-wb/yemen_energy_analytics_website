@@ -1,0 +1,12 @@
+{
+  "hash": "4ecc2c43fdb4fb4fd50af2baee120826",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Documentation\"\nformat: dashboard\n---\n\n\n\n\n# Component 1.2\n\n## Section C\n\n::: {#897aac65 .cell title='Chart C' execution_count=1}\n\n::: {.cell-output .cell-output-stdout}\n```\nwassup\n```\n:::\n:::\n\n\n### Section D\n\n::: {#61e04084 .cell title='Chart D' execution_count=2}\n\n::: {.cell-output .cell-output-stdout}\n```\nPage 2 - Section D\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "yeeap_documentation_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
