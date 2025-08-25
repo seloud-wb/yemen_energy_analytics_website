@@ -4,8 +4,6 @@ format: html
 ---
 
 # Yemen Energy Team Analytics
-Hellooooo
-
 ## Dashboards
 
 ::: {.grid}
