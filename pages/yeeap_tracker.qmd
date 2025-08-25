@@ -7,4 +7,26 @@ navbar:
   background: light
 ---
 
-# Component 1.2 
+# Component 1.1: MFI's
+
+
+
+# Component 1.2 & 1.3: Facilities Data 
+
+## Facility Status Overview
+
+```{python}
+import os, importlib.util
+
+spec = importlib.util.spec_from_file_location(
+    "facilities",
+    os.path.join("..", "src", "visualizations", "facilities.py")
+)
+facilities = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(facilities)
+
+import pandas as pd
+df = pd.read_csv("../data/facilities.csv", parse_dates=["date"])  # also one level up
+facilities.plot_facility_status_pie(df, width=700, height=500).show()
+
+```
