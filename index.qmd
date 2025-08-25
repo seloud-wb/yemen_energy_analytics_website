@@ -6,18 +6,17 @@ format: html
 # Yemen Energy Team Analytics
 ## Dashboards
 
-test2
 
 ::: {.grid}
 ::: {.g-col-6}
 ### 📊 YEEAP II Tracker
-[Explore Dashboard →](yeeap_mfi.qmd)  
+[Explore Dashboard →](pages/yeeap_tracker.qmd)  
 Monitor MFI and facility-level progress with interactive visualizations.
 :::
 
 ::: {.g-col-6}
 ### 📑 Documentation
-[Read Documentation →](yeeap_documentation.qmd)  
+[Read Documentation →](pages/yeeap_documentation.qmd)  
 Methods, assumptions, and supporting notes.
 :::
 :::

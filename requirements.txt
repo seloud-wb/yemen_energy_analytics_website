@@ -2,3 +2,4 @@ plotly
 pandas
 pyyaml
 jupyter
+itables

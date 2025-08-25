@@ -1,19 +1,37 @@
 ---
-title: "Documentation"
-format: dashboard
+title: "YEEAP II Docs"
+format: 
+  dashboard:
+    scrolling: true 
+    embed-resources: true
 ---
 
-# Component 1.2
-
-## Section C
-```{python}
-#| title: Chart C
-print("wassup")
-```
+# Component 1.1: MFI's
 
 
-### Section D
-```{python}
-#| title: Chart D
-print("Page 2 - Section D")
-```
+
+# Component 1.2 & 1.3: Facilities Data 
+
+## Facilities Data {.tabset}
+
+### Data Columns Summary: Facilities
+| Column                            | Type   | Description                                                      | Example Values                              |
+|:----------------------------------|:------:|:-----------------------------------------------------------------|:--------------------------------------------|
+| `date`                            | date   | Reporting date for the facility record                           | `2025-07-15`, `2025-06-30`                  |
+| `Governorate`                     | string | Governorate where the facility is located                        | `Hadramawt`, `Aden`, `Al Hudaydah`          |
+| `District`                        | string | District within the governorate                                  | `Tarim`, `Crater`, `Hays`                   |
+| `Village Name/ /ozla`             | string | Village / sub-district (ʿuzlah) name                              | `Al Maqd`, `Qusayar`, `AL-Ghail bawazeer`   |
+| `Type`                            | string | Facility type                                                     | `School`, `Clinic`, `Hospital`              |
+| `Facility name`                   | string | Official facility name                                            | `Aisha Complex for Girls`, `Al Rayadah hospital` |
+| `Phase`                           | string | Project phase or tranche                                          | `Roll-Out-1`, `Phase 2`, `Pilot`            |
+| `Status`                          | string | Implementation status                                             | `Energized`, `Installed`, `Planned`         |
+| `Comments (if any)`               | string | Free-text notes                                                   | `Delayed due to weather`, `Awaiting permits`|
+| `Installed/planned capacity (kW)` | float  | Installed or planned PV capacity in kilowatts                     | `10.0`, `15.5`, `50.0`                      |
+| `Male Beneficiaries (approx.)`    | float  | Approximate male beneficiaries                                    | `1401.0`, `120.0`                           |
+| `Female Beneficiaries (approx.)`  | float  | Approximate female beneficiaries                                  | `266.0`, `150.0`                            |
+| `Total Beneficiaries (approx.)`     | int    | Approximate total beneficiaries                                   | `184`, `650`                                |
+| `Coordinate`                        | string | Latitude, longitude (decimal degrees)                             | `12.785, 45.032`                            |
+
+### Data Explorer: Facilities (Under Construction)
+
+TODO: Deal with tables not randering 

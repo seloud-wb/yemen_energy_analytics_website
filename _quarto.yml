@@ -6,7 +6,6 @@ format:
     theme: cosmo
     toc: true
 
-
 website:
   title: Yemen Energy Team Analytics
   site-url:  https://seloud-wb.github.io/yemen_energy_analytics_website/  # <— makes the title/logo link to Home
@@ -19,6 +18,6 @@ website:
       - text: "YEEAP II"
         menu:
           - text: "Tracker"
-            href: pages/yeeap_mfi.qmd
+            href: pages/yeeap_tracker.qmd
           - text: "Documentation"
             href: pages/yeeap_documentation.qmd
