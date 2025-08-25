@@ -9,7 +9,7 @@ format:
 
 website:
   title: Yemen Energy Team Analytics
-  page-navigation: true       # <— enable next/previous page links
+  site-url: /pages/index.qmd    # <— makes the title/logo link to Home
   navbar:
     background: dark
     search: true
