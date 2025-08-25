@@ -4,7 +4,7 @@ format: html
 ---
 
 # Yemen Energy Team Analytics
-## Dashboards
+## YEEAP II Operation
 
 
 ::: {.grid}
@@ -15,7 +15,7 @@ Monitor MFI and facility-level progress with interactive visualizations.
 :::
 
 ::: {.g-col-6}
-### 📑 Documentation
+### 📑 YEEAP II Documentation
 [Read Documentation →](pages/yeeap_documentation.qmd)  
 Methods, assumptions, and supporting notes.
 :::

@@ -21,3 +21,5 @@ website:
             href: pages/yeeap_tracker.qmd
           - text: "Documentation"
             href: pages/yeeap_documentation.qmd
+      - text: "Testing Layouts and Rendering"
+        href: pages/testing_layout_and_rendering/page.qmd

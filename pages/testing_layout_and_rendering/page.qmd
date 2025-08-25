@@ -1,0 +1,93 @@
+---
+title: "Quarto Dashboard Test"
+format: 
+  dashboard:
+    scrolling: true
+    embed-resources: true
+keep-md: true
+---
+
+```{python}
+#| include: false
+import plotly.graph_objects as go
+import plotly.io as pio
+pio.renderers.default = "iframe_connected"
+```
+
+# Page 1
+
+## Rows {.flow}
+
+### Column {.flow}
+```{python}
+#| title: Fruit Distribution
+# Simple pie chart with sample data
+import plotly.express as px
+df = px.data.tips().groupby("day").size().reset_index(name="count")
+px.pie(df, names="day", values="count", hole=0.3)
+```
+
+```{python}
+#| title: Payment Methods
+df = px.data.tips().groupby("sex").size().reset_index(name="count")
+px.pie(df, names="sex", values="count")
+```
+
+### Column {.tabset}
+```{python}
+#| title: GDP and Life Expectancy
+import plotly.express as px
+df = px.data.gapminder()
+px.scatter(
+  df, x="gdpPercap", y="lifeExp", 
+  animation_frame="year", animation_group="country",
+  size="pop", color="continent", hover_name="country", 
+  facet_col="continent", log_x=True, size_max=45, 
+  range_x=[100,100000], range_y=[25,90]
+)
+```
+```{python}
+#| title: Payment Methods
+df = px.data.tips().groupby("sex").size().reset_index(name="count")
+px.pie(df, names="sex", values="count")
+```
+
+
+## Row {.fill}
+```{python}
+#| title: GDP and Life Expectancy
+import plotly.express as px
+df = px.data.gapminder()
+px.scatter(
+  df, x="gdpPercap", y="lifeExp", 
+  animation_frame="year", animation_group="country",
+  size="pop", color="continent", hover_name="country", 
+  facet_col="continent", log_x=True, size_max=45, 
+  range_x=[100,100000], range_y=[25,90]
+)
+```
+
+# Page 2
+
+
+## Row {height="500px"}
+
+### Column {width="500px"}
+
+```{python}
+#| title: GDP and Life Expectancy
+import plotly.express as px
+df = px.data.gapminder()
+px.scatter(
+  df, x="gdpPercap", y="lifeExp", 
+  animation_frame="year", animation_group="country",
+  size="pop", color="continent", hover_name="country", 
+  facet_col="continent", log_x=True, size_max=45, 
+  range_x=[100,100000], range_y=[25,90]
+)
+```
+
+```{python}
+#| title: GDP and Life Expectancy
+print("hi")
+```

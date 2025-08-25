@@ -47,3 +47,14 @@ Thumbs.db
 .DS_Store
 
 /.quarto/
+
+_site/
+site_libs/
+pages/**/iframe_figures/
+
+pages/**/*.dashboard.md
+
+
+/site_libs/
+
+/notebooks/
