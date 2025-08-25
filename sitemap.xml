@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://seloud-wb.github.io/yemen_energy_analytics_website/index.html</loc>
-    <lastmod>2025-08-25T11:27:40.387Z</lastmod>
+    <lastmod>2025-08-25T12:47:46.334Z</lastmod>
   </url>
   <url>
-    <loc>https://seloud-wb.github.io/yemen_energy_analytics_website/pages/yeeap_mfi.html</loc>
-    <lastmod>2025-08-25T11:27:40.387Z</lastmod>
+    <loc>https://seloud-wb.github.io/yemen_energy_analytics_website/pages/yeeap_tracker.html</loc>
+    <lastmod>2025-08-25T12:47:46.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://seloud-wb.github.io/yemen_energy_analytics_website/notebooks/facilities_data_explore.html</loc>
+    <lastmod>2025-08-25T12:47:46.334Z</lastmod>
   </url>
   <url>
     <loc>https://seloud-wb.github.io/yemen_energy_analytics_website/pages/yeeap_documentation.html</loc>
-    <lastmod>2025-08-25T11:27:40.387Z</lastmod>
+    <lastmod>2025-08-25T12:47:46.334Z</lastmod>
   </url>
 </urlset>
