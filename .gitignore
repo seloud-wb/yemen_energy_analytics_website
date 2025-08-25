@@ -58,3 +58,5 @@ pages/**/*.dashboard.md
 /site_libs/
 
 /notebooks/
+
+!/notebooks/facilities_data_explore.ipynb
