@@ -1,1 +1,1 @@
-Sitemap: https://seloud-wb.github.io/yemen_energy_analytics_website/sitemap.xml
+Sitemap: /pages/index.qmd/sitemap.xml
